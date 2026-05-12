@@ -1,6 +1,8 @@
 import "@testing-library/jest-dom";
-import { configureAxe, toHaveNoViolations } from "jest-axe";
-import { TextEncoder, TextDecoder } from "util";
+import { toHaveNoViolations } from "jest-axe";
+declare const require: any;
+const { TextEncoder, TextDecoder } =
+  typeof require === "function" ? require("util") : (globalThis as any);
 import { server } from "./test/mswServer";
 
 expect.extend(toHaveNoViolations);

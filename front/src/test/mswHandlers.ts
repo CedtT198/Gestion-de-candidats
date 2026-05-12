@@ -55,6 +55,7 @@ export const handlers = [
   }),
 
   rest.post("http://localhost:3000/api/candidates/login", (req, res, ctx) => {
+    req;
     return res(ctx.status(200), ctx.json({ message: "Connexion réussie", token: "fake-token" }));
   })
 ];

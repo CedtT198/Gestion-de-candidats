@@ -40,7 +40,9 @@ export default function CandidateForm({ defaultValues, id }: any) {
           placeholder="Prénom" 
           {...register("firstName", { required: "Le prénom est requis" })} 
         />
-        {errors.firstName && <p style={{ color: "red" }}>{errors.firstName.message}</p>}
+        {typeof errors.firstName?.message === "string" && (
+          <p style={{ color: "red" }}>{errors.firstName.message}</p>
+        )}
       </div>
 
       <div>
@@ -50,7 +52,9 @@ export default function CandidateForm({ defaultValues, id }: any) {
           placeholder="Nom" 
           {...register("lastName", { required: "Le nom est requis" })} 
         />
-        {errors.lastName && <p style={{ color: "red" }}>{errors.lastName.message}</p>}
+        {typeof errors.lastName?.message === "string" && (
+          <p style={{ color: "red" }}>{errors.lastName.message}</p>
+        )}
       </div>
 
       <div>
@@ -61,7 +65,9 @@ export default function CandidateForm({ defaultValues, id }: any) {
           placeholder="Email" 
           {...register("email", { required: "L'email est requis", pattern: { value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, message: "Email invalide" } })} 
         />
-        {errors.email && <p style={{ color: "red" }}>{errors.email.message}</p>}
+        {typeof errors.email?.message === "string" && (
+          <p style={{ color: "red" }}>{errors.email.message}</p>
+        )}
       </div>
 
       <div>
@@ -71,7 +77,9 @@ export default function CandidateForm({ defaultValues, id }: any) {
           placeholder="Téléphone" 
           {...register("phone", { required: "Le téléphone est requis", minLength: { value: 10, message: "Minimum 10 caractères" } })} 
         />
-        {errors.phone && <p style={{ color: "red" }}>{errors.phone.message}</p>}
+        {typeof errors.phone?.message === "string" && (
+          <p style={{ color: "red" }}>{errors.phone.message}</p>
+        )}
       </div>
 
       {error && <p role="alert" style={{ color: "red" }}>{error}</p>}
