@@ -1,0 +1,36 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: back/Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: "3000"
+      MONGO_URI: "mongodb://mongo:27017/gestion-candidats"
+      NODE_ENV: "development"
+      JWT_SECRET: "secret"
+    depends_on:
+      - mongo
+
+  frontend:
+    build:
+      context: .
+      dockerfile: front/Dockerfile
+      args:
+        VITE_API_URL: "http://localhost:3000/api"
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+  mongo:
+    image: mongo:7.0
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
+    {}

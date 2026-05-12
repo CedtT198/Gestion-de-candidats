@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1778593648296" clover="3.2.0">
+  <project timestamp="1778593648297" name="All files">
+    <metrics statements="92" coveredstatements="66" conditionals="88" coveredconditionals="56" methods="35" coveredmethods="16" elements="215" coveredelements="138" complexity="0" loc="92" ncloc="92" packages="4" files="6" classes="6"/>
+    <package name="api">
+      <metrics statements="41" coveredstatements="25" conditionals="20" coveredconditionals="9" methods="18" coveredmethods="5"/>
+      <file name="candidates.api.ts" path="E:\Cedric\Travail\Test\ProcessIQ\Gestion-de-candidats\front\src\api\candidates.api.ts">
+        <metrics statements="41" coveredstatements="25" conditionals="20" coveredconditionals="9" methods="18" coveredmethods="5"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="2" falsecount="2"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="20" type="cond" truecount="4" falsecount="0"/>
+        <line num="26" count="13" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="4" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="62" count="4" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="66" count="4" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="71" count="4" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="76" count="4" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="81" count="4" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components">
+      <metrics statements="26" coveredstatements="22" conditionals="39" coveredconditionals="22" methods="9" coveredmethods="6"/>
+      <file name="CandidateList.tsx" path="E:\Cedric\Travail\Test\ProcessIQ\Gestion-de-candidats\front\src\components\CandidateList.tsx">
+        <metrics statements="22" coveredstatements="20" conditionals="39" coveredconditionals="22" methods="6" coveredmethods="5"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="69" count="4" type="stmt"/>
+        <line num="84" count="0" type="cond" truecount="0" falsecount="10"/>
+        <line num="85" count="0" type="stmt"/>
+      </file>
+      <file name="Pagination.tsx" path="E:\Cedric\Travail\Test\ProcessIQ\Gestion-de-candidats\front\src\components\Pagination.tsx">
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="5" coveredstatements="5" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
+      <file name="useCandidates.ts" path="E:\Cedric\Travail\Test\ProcessIQ\Gestion-de-candidats\front\src\hooks\useCandidates.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="28" count="11" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="test">
+      <metrics statements="20" coveredstatements="14" conditionals="20" coveredconditionals="16" methods="6" coveredmethods="3"/>
+      <file name="mswHandlers.ts" path="E:\Cedric\Travail\Test\ProcessIQ\Gestion-de-candidats\front\src\test\mswHandlers.ts">
+        <metrics statements="17" coveredstatements="11" conditionals="20" coveredconditionals="16" methods="6" coveredmethods="3"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="24" count="3" type="cond" truecount="6" falsecount="0"/>
+        <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="29" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="32" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+      </file>
+      <file name="mswServer.ts" path="E:\Cedric\Travail\Test\ProcessIQ\Gestion-de-candidats\front\src\test\mswServer.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
