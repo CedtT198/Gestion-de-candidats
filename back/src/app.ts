@@ -43,9 +43,7 @@ app.use(express.json());
 app.use(helmet());
 
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' 
-    ? "https://gestion-de-candidats-front.onrender.com"
-    : "http://localhost:5173",
+  origin: "https://gestion-de-candidats-front.onrender.com",
   credentials: true
 }));
 
