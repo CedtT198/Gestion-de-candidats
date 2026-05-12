@@ -4,7 +4,7 @@ import type { CandidatesResponse } from "../hooks/useCandidates";
 const TOKEN_STORAGE_KEY = "gestion_candidats_token";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:3000/api",
+  baseURL: import.meta.env.VITE_API_URL || "/api",
   withCredentials: true
 });
 
