@@ -44,7 +44,7 @@ app.use(helmet());
 
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? "https://gestion-candidats-frontend.onrender.com"
+    ? "https://gestion-de-candidats-front.onrender.com"
     : "http://localhost:5173",
   credentials: true
 }));
