@@ -1,5 +1,7 @@
 # Gestion de candidats
 Lien render: https://gestion-de-candidats-front.onrender.com
+email: admin@mail.com
+password: admin
 
 ## Structure du projet
 - `back/`
